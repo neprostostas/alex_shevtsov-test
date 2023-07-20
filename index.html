@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="1 days">
+        <meta name="author" content="neprostostas">
+        <title>Test</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+
+        <div class="overlay"></div>
+        <div class="modal">
+
+            <svg class="close" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                <line x1="1.70711" y1="1.69853" x2="32.1127" y2="32.1041" stroke="white" stroke-opacity="0.8" stroke-width="2"/>
+                <line x1="1.29289" y1="31.6984" x2="31.6985" y2="1.29282" stroke="white" stroke-opacity="0.8" stroke-width="2"/>
+            </svg>
+
+            <h2 class="primary">Закажите обратный звонок</h2>
+
+            <form class="modal-form">
+
+                <div class="field name">
+                    <label for="name"></label>
+                    <input placeholder="ИМЯ" type="text" id="name" name="name" minlength="2">
+                </div>
+
+                <div class="field number">
+                    <label for="number"></label>
+                    <input placeholder="ТЕЛЕФОН" type="number" id="number" name="number" min="10" max="100">
+                </div>
+
+                <div class="line">
+                    <input type="checkbox" id="personal" name="personal">
+                    <label for="personal">Согласен на сохранение и обработку персональных данных</label>
+                </div>
+
+                <button class="second final" type="submit" value="Submit" onclick="return false;">
+                    <span>Бесплатная консультация</span>
+                    <span><img src="assets/images/icons/click-white.svg" alt="click-white"></span>
+                </button>
+
+            </form>
+
+            <br>
+            <br>
+            <h2 class="secondary">Спасибо за заявку</h2>
+            <br>
+            <p class="secondary">Я обязательно свяжусь с вами в ближайшее время.</p>
+
+        </div>
+
+        <header>
+            <div class="header-content container">
+
+                <a href="#">
+                    <img src="assets/images/icons/logo.svg" alt="logo">
+                </a>
+
+                <nav class="header-nav">
+                    <ul class="list-nav">
+                        <li><a href="#">Обо мне</a></li>
+                        <li><a href="#">Наставничество</a></li>
+                        <li><a href="#">Мероприятия</a></li>
+                        <li><a href="#">Кейсы</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="phone-block">
+                    <img src="assets/images/icons/phone.svg" alt="phone">
+                    <a class="phone-link" href="tel:+83451233445">8-345-123-34-45</a>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+
+            <div class="main-content container">
+
+                <div class="left-part">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" class="title">Создаю условия для вашего успеха</h1>
+
+                    <div class="line-part">
+                        <hr>
+                        <p>Когда ваше время и энергия лучше сфокусированы, стремление к новым возможностям становится реальностью,  ваш успех зависит от ваших действий</p>
+                    </div>
+
+                    <div class="buttons-wrap" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="first">
+                            <span>Записаться на консультацию</span>
+                            <span><img src="assets/images/icons/click-blue.svg" alt="click-blue"></span>
+                        </button>
+                        <button class="second">
+                            <span>Бесплатная консультация</span>
+                            <span><img src="assets/images/icons/click-white.svg" alt="click-white"></span>
+                        </button>
+                    </div>
+
+                    <div class="statistic-wrap" data-aos="fade-bottom" data-aos-duration="1000">
+
+                        <div class="info-part">
+                            <hr>
+                            <div class="number-block">
+                                <h3>130+</h3>
+                                <p>техник для достижения целей</p>
+                            </div>
+                        </div>
+
+                        <div class="info-part">
+                            <hr>
+                            <div class="number-block">
+                                <h3>250%</h3>
+                                <p>увеличение личной продуктивности</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="right-part" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="assets/images/author.png" alt="author">
+                </div>
+
+
+
+            </div>
+
+        </main>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
